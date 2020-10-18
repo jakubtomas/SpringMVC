@@ -17,6 +17,7 @@
 
     <h2>LInk back</h2>
 
-    <a href="${pageContext.request.contextPath}/showForm">Show form</a>
+    <a href="${pageContext.request.contextPath}/hello/showForm">Show form</a>
 </body>
 </html>
+UFXUMF
