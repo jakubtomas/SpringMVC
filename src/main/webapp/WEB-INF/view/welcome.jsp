@@ -1,4 +1,3 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -11,6 +10,11 @@
 <br>
 
 <a href="${pageContext.request.contextPath}/hello/showForm">Show form</a>
+
+<br>
+<a href="${pageContext.request.contextPath}/student/showForm">student show form</a>
+<br>
+<a href="/student/showForm">Student show Form</a>
 
 </body>
 </html>
