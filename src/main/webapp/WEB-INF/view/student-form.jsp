@@ -14,6 +14,13 @@
         <br> <br>
         Second  name : <form:input path="lastName"/>
         <br><br>
+
+        Country :
+        <form:select path="country">
+<%--            with getCountryOptions get values--%>
+            <form:options items="${student.countryOptions}"/>
+        </form:select>
+
         <input type="submit"/>
     </form:form>
 
